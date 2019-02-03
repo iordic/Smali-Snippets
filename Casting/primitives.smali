@@ -1,11 +1,3 @@
-## Java:
-long a = 23;
-int b = (int) a;
-
-double c = 2.4f;
-float d = (float) c;
-
-## Smali:
 const-wide/16 v0, 0x17
 .local v0, "a":J
 

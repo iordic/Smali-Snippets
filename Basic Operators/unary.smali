@@ -1,29 +1,3 @@
-## Java:
-int a = 0;
-long b = 0;
-float c = 0;
-double d = 0;
-boolean e = true;
-
-a = ++a;
-a = --a;
-a = -a;
-
-b = ++b;
-b = --b;
-b = -b;
-
-c = ++c;
-c = --c;
-c = -c;
-
-d = ++d;
-d = --d;
-d = -d;
-
-e = !e;
-
-## Smali:
 const/4 v0, 0x0
 .local v0, "a":I
 

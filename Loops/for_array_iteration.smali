@@ -1,11 +1,3 @@
-## Java:
-int [] a = {12, 10, 8, 6, 4, 2, 0};
-
-for (int element: a) {
-    System.out.println(element);
-}
-
-## Smali:
 const/4 v0, 0x7
 
 new-array v0, v0, [I

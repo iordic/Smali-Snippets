@@ -1,22 +1,3 @@
-## Java:
-int a = 10;
-int b;
-
-switch (a / 2) {
-    case 1:
-        b = 0;
-        break;
-    case 2:
-        b = 1;
-        break;
-    case 3:
-        b = 2;
-        break;
-    default:
-        b = -1;
-}
-
-## Smali:
 const/16 v0, 0xa
 
 .local v0, "a":I

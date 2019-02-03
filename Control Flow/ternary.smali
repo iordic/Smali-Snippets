@@ -1,9 +1,3 @@
-## Java:
-int a = 5;
-int b = 3;
-int min = (a < b) ? a : b;
-
-## Smali:
 const/4 v0, 0x5
 
 .local v0, "a":I

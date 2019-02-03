@@ -1,33 +1,3 @@
-## Java:
-package com.example.name.test;
-
-public class Car {
-    private int wheels;
-    private String name;
-
-    public Car(int wheels, String name) {
-        this.wheels = wheels;
-        this.name = name;
-    }
-
-    public void setWheels(int w) {
-        wheels = w;
-    }
-
-    public void setName(String n) {
-        name = n;
-    }
-
-    public int getWheels() {
-        return wheels;
-    }
-
-    public String getName() {
-        return name;
-    }
-}
-
-## Smali:
 .class public Lcom/example/name/test/Car;
 .super Ljava/lang/Object;
 .source "Car.java"

@@ -1,18 +1,3 @@
-## Java:
-char a = 'a';
-int b;
-
-if (a + 3 > 20) {
-    if (a - 12 < 0) {
-        b = a;
-    } else {
-        b = -1;
-    }
-} else {
-    b = 0;
-}
-
-## Smali:
 const/16 v0, 0x61
 
 .local v0, "a":C

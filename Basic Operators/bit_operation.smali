@@ -1,16 +1,3 @@
-## Java:
-int a = 23;
-int b = 54;
-int c;
-
-c = ~a;
-c = a ^ b;
-c = ~b ^ a;
-
-c = a | b;
-c = a & b;
-
-## Smali:
 const/16 v0, 0x17
 .local v0, "a":I
 

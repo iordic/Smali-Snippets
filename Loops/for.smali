@@ -1,11 +1,3 @@
-## Java:
-int a = 0;
-
-for (int i = 0; i < 100; i++) {
-    a = i * 2;
-}
-
-## Smali:
 const/4 v0, 0x0
 .local v0, "a":I
 

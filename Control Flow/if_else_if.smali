@@ -1,17 +1,3 @@
-## Java
-float a = 0.3f;
-float b = 2.5f;
-float c;
-
-if ((a*b) < 0 || (a*b) > 10) {
-    c = 5;
-} else if ((a*b) > 0 && (a*b) < 10) {
-    c = 0;
-} else {
-    c = -1;
-}
-
-## Smali
 const v0, 0x3e99999a    # 0.3f
 
 .local v0, "a":F

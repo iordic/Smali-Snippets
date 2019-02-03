@@ -1,15 +1,3 @@
-## Java:
-boolean a = true;
-boolean b = false;
-boolean c;
-
-c = a && b;
-c = a || b;
-
-c = a & b;
-c = a | b;
-
-## Smali:
 const/4 v0, 0x1
 .local v0, "a":Z
 

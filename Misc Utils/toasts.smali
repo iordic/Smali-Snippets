@@ -1,16 +1,3 @@
-## Java:
-// Toast step by step
-Context context = getApplicationContext();
-CharSequence message = "This is a step by step Toast";
-int duration = Toast.LENGTH_LONG;
-
-Toast toast = Toast.makeText(context, message, duration);
-toast.show();
-
-// Toast in a line
-Toast.makeText(this, "This is a toast", Toast.LENGTH_SHORT).show();
-
-## Smali:
 invoke-virtual {p0}, Lcom/example/jordi/pruebas/MainActivity;->getApplicationContext()Landroid/content/Context;
 
 move-result-object v0

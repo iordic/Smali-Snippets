@@ -1,11 +1,3 @@
-## Java:
-int a = 0;
-
-while (a < 100) {
-    a += 1;
-}
-
-## Smali:
 const/4 v0, 0x0
 .local v0, "a":I
 

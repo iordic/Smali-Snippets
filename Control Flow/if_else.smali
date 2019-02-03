@@ -1,14 +1,3 @@
-## Java:
-int a = 10;
-int b;
-
-if (a < 9) {
-    b = 12;
-} else {
-    b = 8;
-}
-
-## Smali:
 const/16 v0, 0xa
 .local v0, "a":I
 

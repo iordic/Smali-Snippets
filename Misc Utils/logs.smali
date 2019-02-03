@@ -1,12 +1,3 @@
-## Java:
-String tag = "TAG";
-String message = "This is the message";
-
-Log.v(tag, message);
-
-Log.v("NO VAR", "Log without using variables");
-
-## Smal:
 const-string v0, "TAG"
 .local v0, "tag":Ljava/lang/String;
 

@@ -1,9 +1,3 @@
-## Java:
-Car seat = new Car(4,"Ibiza");
-seat.getName();
-seat.setWheels(5);
-
-## Smali:
 new-instance v0, Lcom/example/jordi/pruebas/Car;
 
 const-string v1, "Ibiza"

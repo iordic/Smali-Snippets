@@ -1,12 +1,3 @@
-## Java:
-int a = 2;
-int b = 2;
-
-if (a + b == 4) {
-    b = 27;
-}
-
-## Smali:
 const/4 v0, 0x2
 
 .local v0, "a":I

@@ -1,13 +1,3 @@
-## Java:
-int a = 23;
-int b = 54;
-int c;
-
-c = a << 2;
-c = b >> 3;
-c = b >>> 5;
-
-## Smali:
 const/16 v0, 0x17
 .local v0, "a":I
 

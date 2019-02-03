@@ -1,8 +1,3 @@
-## Java:
-String a = "Hello";
-String b = null;
-
-## Smali:
 const-string v0, "Hello"
 .local v0, "a":Ljava/lang/String;
 
